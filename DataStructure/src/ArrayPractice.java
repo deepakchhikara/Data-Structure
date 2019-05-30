@@ -1,25 +1,26 @@
 
 public class ArrayPractice {
-	int i=0;
-	int arr[]= {10,80,20,38,78,29};
-	int n=6;
-	int key= 38; // we have to search 38 in the above created array
+	
+	    
+		int arr[]= {10,80,20,38,78,29};
+		int n=6; //we are taking 6 because we have six index
+		int key= 38; // we have to search 38 in the above created array
 	int elementFind() 
 	{
-	for(i=0; i<n; i++)
+	for(int i=0; i<n; i++)// i is counting index here.
 	{
 		if(arr[i]==key) {
 			
-			System.out.println("It's True");
+			System.out.println("Index" + ' '+ i);// 3rd Index showing our searched value
 		}
 	}
-		return i;
+		return -1;
 	}
 
 	public static void main(String[] args) {
 		
-ArrayPractice ap= new ArrayPractice();
-ap.elementFind();
+    ArrayPractice ap= new ArrayPractice();
+     ap.elementFind();
 		
 	}
 
