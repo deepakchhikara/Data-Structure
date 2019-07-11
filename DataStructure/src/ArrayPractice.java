@@ -2,9 +2,9 @@
 public class ArrayPractice {
 	
 	    
-		int arr[]= {10,80,20,38,78,29};
+		int arr[]= {10,80,20,38,'D',78,29};
 		int n=6; //we are taking 6 because we have six index
-		int key= 38; // we have to search 38 in the above created array
+		int key= 'D'; // we have to search 38 in the above created array
 	int elementFind() 
 	{
 	for(int i=0; i<n; i++)// i is counting index here.
